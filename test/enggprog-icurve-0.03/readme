@@ -17,7 +17,7 @@ change the path of scilab to this folder and verify by typing 'pwd'
 
 in scilab console, write:
 
-exec('lcmain.sce',0) //main program for interaction curve 
+exec('icmain.sce',0) //main program for interaction curve 
 
 or
 write:
