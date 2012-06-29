@@ -1,0 +1,28 @@
+Program for Uniaxial Interaction Curve of Rectangular RC- Column
+version 0.03
+Distributed under the license of GNU/GPL v3
+
+
+Author: Engr. Faisal ur Rehman
+enggprog.com - Engineering Programs
+
+
+
+
+-------------------------
+how to run:
+-------------------------
+change the path of scilab to this folder and verify by typing 'pwd'
+
+
+in scilab console, write:
+
+exec('lcmain.sce',0) //main program for interaction curve 
+
+or
+write:
+
+lines(0) 		// for uninterepted continuous output of calc
+exec('preproc.sce',0)   // preprocessor for new x-section
+load('var01.bin')       // load all input variables.
+exec('icurve.sce',0)    // run main program of interaction curve

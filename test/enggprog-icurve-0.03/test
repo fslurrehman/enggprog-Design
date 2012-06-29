@@ -1,0 +1,26 @@
+for ii = 1 : length(Pn)
+	if Pn(ii) > 0
+		disp(ii)
+		break
+	end 
+end
+
+clear('X','Y')
+for ii = 57: length(Pn)
+	Y(ii-56) = Pn(ii);
+end
+
+for ii = 57: length(Mn)
+	X(ii-56) = Mn(ii);
+end
+
+yp=interp1(X, Y ,63.75 ,'linear')
+
+for ii = 1 : length(Mn)
+	if round(Mn(ii)*100)/100 == 317.36
+		disp(ii)
+		break
+	end 
+end
+
+
